@@ -1,0 +1,22 @@
+@@ Example showing the usage of shells #
+
+hatch 
+
+turtle fred;
+turtle john;
+
+shell fred
+	forward 100;
+	left;
+	forward 200;
+endshell
+
+shell john
+	forward -100;
+	right;
+	forward -200;
+endshell
+
+fred forward 100;
+
+soup

@@ -1,0 +1,35 @@
+@@ Draws 2 green boxes, using 2 different turtles #
+
+hatch
+
+turtle bob;
+turtle george;
+
+george notrail;
+george forward 100;
+george left;
+george trail;
+george forward 100;
+george right;
+george forward 100;
+
+bob turn 180;
+bob notrail;
+bob forward 100;
+bob right;
+bob trail;
+bob forward 100;
+bob left;
+bob forward 100;
+
+george right;
+george forward 100;
+george right;
+george forward 100;
+
+bob left;
+bob forward 100;
+bob left;
+bob forward 100;
+
+soup

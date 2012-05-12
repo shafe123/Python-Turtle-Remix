@@ -1,0 +1,28 @@
+@@ Example showing use of instincts #
+
+hatch
+
+turtle fred;
+turtle bob;
+
+instinct hop
+	forward 30;
+	notrail;
+	forward 30;
+	trail;
+	forward 30;
+	notrail;
+	forward 30;
+	trail;
+endinstinct
+
+bob hop;
+
+reset;
+
+fred left;
+fred forward 200;
+fred left;
+fred hop;
+
+soup

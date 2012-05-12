@@ -1,0 +1,18 @@
+@@ Draws a multi-colored box with one turtle #
+
+hatch
+
+turtle fred;
+
+fred forward 100;
+fred right;
+fred color blue;
+fred forward 100;
+fred right;
+fred color yellow;
+fred forward 100;
+fred right;
+fred color red;
+fred forward 100;
+
+soup
